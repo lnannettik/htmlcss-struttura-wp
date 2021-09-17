@@ -58,24 +58,30 @@ main {
     background-color: lightblue;
 }
 
-.sidebar {
+
+.sidebar, .col1, .col2 {
     float: left;
+}
+
+.sidebar {
     width: 25%;
     background-color: lightblue;
     margin-right: 1%;
 }
 
 .col1 {
-    float: left;
     width: 48%;
     background-color: lightblue;
-    margin-right: 10px;
-    margin-left: 10px;
 }
 
 .col2 {
-    float: left;
     width: 25%;
     background-color: lightblue;
     margin-left: 1%;
 }
+
+/* FOOTER */
+.footer {
+    width: 100%;
+    background-color: purple;
+} 
