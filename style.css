@@ -18,6 +18,14 @@
     background: 0, 0, 0, .25;
 }
 
+/* UTILITY */
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+
 .mb-20 {
     margin-bottom: 20px;
 }
@@ -37,4 +45,37 @@ header {
 main {
     width: 100%;
     background-color: lightgoldenrodyellow;
+}
+
+/* STRUTTURA */
+.struttura {
+    background-color: royalblue;
+
+}
+
+
+.testa {
+    background-color: lightblue;
+}
+
+.sidebar {
+    float: left;
+    width: 25%;
+    background-color: lightblue;
+    margin-right: 1%;
+}
+
+.col1 {
+    float: left;
+    width: 48%;
+    background-color: lightblue;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.col2 {
+    float: left;
+    width: 25%;
+    background-color: lightblue;
+    margin-left: 1%;
 }
