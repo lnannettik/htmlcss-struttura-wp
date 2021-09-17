@@ -1,0 +1,40 @@
+/* GENERAL RESET */
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* BODY */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* CONTENT DEBUG */
+.content {
+    height: 30px;
+    border: 1px solid #000;
+    background: 0, 0, 0, .25;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.pdx-16 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    background-color: purple;
+}
+
+/* MAIN */
+main {
+    width: 100%;
+    background-color: lightgoldenrodyellow;
+}
